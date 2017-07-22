@@ -1,20 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.video,
+.text {
+  width: 100%;
+  max-width: 415px;
+}
 
 .text {
-  margin-left: 16px;
-  margin-right: 16px;
+  padding: 5px;
 }
 
 .color-change {
-  background-color: #FFFF00;
+  color: #DC143C;
 }
 
+.mejs__controls {
+  background: 	#00BFFF;
+  opacity: .33;
+}
 @media(min-width:768px) {
-  .video {
-    width: 80%;
-    text-align: center;
-  }
+
+  .video,
   .text {
-    width: 80%;
-    text-align: center;
+    width: 77%;
+    max-width: none;
   }
+
 }
