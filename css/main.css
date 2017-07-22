@@ -1,0 +1,20 @@
+
+.text {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.color-change {
+  background-color: #FFFF00;
+}
+
+@media(min-width:768px) {
+  .video {
+    width: 80%;
+    text-align: center;
+  }
+  .text {
+    width: 80%;
+    text-align: center;
+  }
+}
