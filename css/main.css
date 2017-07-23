@@ -8,10 +8,13 @@ div {
   margin: 0 auto;
 }
 
+
+
 .video,
 .text {
   width: 100%;
   max-width: 415px;
+  object-fit: fill;
 }
 
 .text {
@@ -24,8 +27,8 @@ div {
 }
 
 .mejs__controls {
-  background: 	#00BFFF;
-  opacity: .33;
+  background: 	linear-gradient(transparent,rgba(0,191,255,.47));
+
 }
 
 @media(min-width:768px) {
@@ -35,6 +38,10 @@ div {
     margin-right: 0;
   }
 
+  .mejs__player {
+    height: 100%;
+  }
+
   .video,
   .text {
     width: 77%;
@@ -42,12 +49,6 @@ div {
 
   .mejs__mediaelement {
     max-height: 200%;
-  }
-
-  .mejs__player {
-    max-height: 100%;
-    object-fit: fill;
-
   }
 
 }
