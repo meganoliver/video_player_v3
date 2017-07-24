@@ -28,8 +28,21 @@ div {
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
 }
 
+.mejs__container,
+.mejs__player {
+  height: 100%;
+  width: 100%;
+}
+
+.mejs__overlay,
+.mejs__overlay-play,
+.mejs__layer {
+  height: 100%;
+  width: 100%;
+}
 
 .text {
   padding-top: 5px;
