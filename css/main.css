@@ -27,27 +27,11 @@ div {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.mejs__container,
-.mejs__player {
-  height: 100%;
-  width: 100%;
-}
-
-.mejs__overlay,
-.mejs__overlay-play,
-.mejs__layer {
-  height: 100%;
-  width: 100%;
 }
 
 .text {
   padding-top: 5px;
 }
-
 
 .color-change {
   color: #DC143C;
@@ -55,7 +39,6 @@ div {
 
 .mejs__controls {
   background: 	linear-gradient(transparent,rgba(0,191,255,.64));
-
 }
 
 @media(min-width:768px) {
@@ -65,8 +48,8 @@ div {
     margin-right: 0;
   }
 
-  .mejs__player {
-    height: 100%;
+  .video {
+    padding-bottom: 20.8%;
   }
 
   .video,
