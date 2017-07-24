@@ -5,15 +5,31 @@ p {
 
 div {
   width: 100%;
+  height: 100%;
   margin: 0 auto;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  overflow: hidden;
 }
 
 .video,
 .text {
   width: 100%;
-  max-width: 415px;
+  max-width: 421px;
   object-fit: fill;
 }
+
+.mejs__player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 
 .text {
   padding-top: 5px;
